@@ -23,5 +23,80 @@
     "url": "https://raw.githubusercontent.com/aminoy77/HelloChusquis-plugins/main/plugins/sysinfo.py",
     "description": "Obtiene información básica del sistema operativo y hardware.",
     "author": "Arnau"
+  },
+  "spotify": {
+    "url": "https://raw.githubusercontent.com/aminoy77/HelloChusquis-plugins/main/plugins/spotify.py",
+    "description": "Controla la reproducción de Spotify y busca contenido.",
+    "author": "Arnau"
+  },
+  "translator": {
+    "url": "https://raw.githubusercontent.com/aminoy77/HelloChusquis-plugins/main/plugins/translator.py",
+    "description": "Traduce texto entre diferentes idiomas, detectando el idioma de origen automáticamente.",
+    "author": "Arnau"
+  },
+  "filemanager": {
+    "url": "https://raw.githubusercontent.com/aminoy77/HelloChusquis-plugins/main/plugins/filemanager.py",
+    "description": "Gestiona archivos y directorios en el sistema de archivos (leer, escribir, listar, crear, borrar, renombrar).",
+    "author": "Arnau"
+  },
+  "git": {
+    "url": "https://raw.githubusercontent.com/aminoy77/HelloChusquis-plugins/main/plugins/git.py",
+    "description": "Asistente para operaciones básicas de Git (status, add, commit, push, pull, branch, log).",
+    "author": "Arnau"
+  },
+  "youtube": {
+    "url": "https://raw.githubusercontent.com/aminoy77/HelloChusquis-plugins/main/plugins/youtube.py",
+    "description": "Busca videos en YouTube, obtiene información y descarga audio o enlaces.",
+    "author": "Arnau"
+  },
+  "crypto": {
+    "url": "https://raw.githubusercontent.com/aminoy77/HelloChusquis-plugins/main/plugins/crypto.py",
+    "description": "Obtiene precios de criptomonedas en tiempo real.",
+    "author": "Arnau"
+  },
+  "stocks": {
+    "url": "https://raw.githubusercontent.com/aminoy77/HelloChusquis-plugins/main/plugins/stocks.py",
+    "description": "Obtiene precios de acciones y datos de bolsa en tiempo real.",
+    "author": "Arnau"
+  },
+  "todo": {
+    "url": "https://raw.githubusercontent.com/aminoy77/HelloChusquis-plugins/main/plugins/todo.py",
+    "description": "Gestiona una lista de tareas persistente (añadir, listar, completar, eliminar).",
+    "author": "Arnau"
+  },
+  "shell": {
+    "url": "https://raw.githubusercontent.com/aminoy77/HelloChusquis-plugins/main/plugins/shell.py",
+    "description": "Ejecuta comandos de shell de forma segura en el sistema.",
+    "author": "Arnau"
+  },
+  "qr": {
+    "url": "https://raw.githubusercontent.com/aminoy77/HelloChusquis-plugins/main/plugins/qr.py",
+    "description": "Genera códigos QR a partir de texto o URLs.",
+    "author": "Arnau"
+  },
+  "password": {
+    "url": "https://raw.githubusercontent.com/aminoy77/HelloChusquis-plugins/main/plugins/password.py",
+    "description": "Genera contraseñas seguras y personalizables.",
+    "author": "Arnau"
+  },
+  "unit": {
+    "url": "https://raw.githubusercontent.com/aminoy77/HelloChusquis-plugins/main/plugins/unit.py",
+    "description": "Convierte unidades de peso, longitud, temperatura, volumen, etc.",
+    "author": "Arnau"
+  },
+  "joke": {
+    "url": "https://raw.githubusercontent.com/aminoy77/HelloChusquis-plugins/main/plugins/joke.py",
+    "description": "Cuenta chistes aleatorios en español.",
+    "author": "Arnau"
+  },
+  "ip": {
+    "url": "https://raw.githubusercontent.com/aminoy77/HelloChusquis-plugins/main/plugins/ip.py",
+    "description": "Obtiene información de la IP pública y geolocalización.",
+    "author": "Arnau"
+  },
+  "calendar": {
+    "url": "https://raw.githubusercontent.com/aminoy77/HelloChusquis-plugins/main/plugins/calendar.py",
+    "description": "Gestiona fechas, horas, recordatorios y eventos.",
+    "author": "Arnau"
   }
 }

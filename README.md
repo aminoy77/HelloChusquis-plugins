@@ -73,6 +73,21 @@ Aquí tienes una lista de los plugins actualmente disponibles en este repositori
 | `currency`    | Convierte una cantidad de una moneda a otra utilizando tasas de cambio actuales. |
 | `news`        | Obtiene las últimas noticias de una categoría o palabra clave específica. |
 | `sysinfo`     | Obtiene información básica del sistema operativo y hardware.             |
+| `spotify`     | Controla la reproducción de Spotify y busca contenido.                   |
+| `translator`  | Traduce texto entre diferentes idiomas, detectando el idioma de origen automáticamente. |
+| `filemanager` | Gestiona archivos y directorios en el sistema de archivos (leer, escribir, listar, crear, borrar, renombrar). |
+| `git`         | Asistente para operaciones básicas de Git (status, add, commit, push, pull, branch, log). |
+| `youtube`     | Busca videos en YouTube, obtiene información y descarga audio o enlaces. |
+| `crypto`      | Obtiene precios de criptomonedas en tiempo real.                         |
+| `stocks`      | Obtiene precios de acciones y datos de bolsa en tiempo real.             |
+| `todo`        | Gestiona una lista de tareas persistente (añadir, listar, completar, eliminar). |
+| `shell`       | Ejecuta comandos de shell de forma segura en el sistema.                 |
+| `qr`          | Genera códigos QR a partir de texto o URLs.                              |
+| `password`    | Genera contraseñas seguras y personalizables.                           |
+| `unit`        | Convierte unidades de peso, longitud, temperatura, volumen, etc.         |
+| `joke`        | Cuenta chistes aleatorios en español.                                    |
+| `ip`          | Obtiene información de la IP pública y geolocalización.                 |
+| `calendar`    | Gestiona fechas, horas, recordatorios y eventos.                         |
 
 
 ## Cómo Contribuir
