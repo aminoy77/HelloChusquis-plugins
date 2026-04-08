@@ -10,13 +10,13 @@ HelloChusquis es un asistente virtual o plataforma que interactúa con el usuari
 
 ## Instalación de Plugins
 
-Para instalar un plugin en tu instancia de HelloChusquis, generalmente necesitarás:
+Para instalar un plugin en tu instancia de HelloChusquis, simplemente abre tu terminal y ejecuta el siguiente comando:
 
-1.  **Descargar el archivo del plugin**: Puedes obtener los archivos `.py` directamente desde la carpeta `plugins/` de este repositorio.
-2.  **Colocar el plugin en el directorio adecuado**: Copia el archivo `.py` del plugin en la carpeta de plugins de tu instalación de HelloChusquis.
-3.  **Actualizar el registro de plugins**: Asegúrate de que tu instancia de HelloChusquis reconozca el nuevo plugin. Esto puede implicar actualizar un archivo de configuración o ejecutar un comando de recarga de plugins.
+```bash
+hellochusquis install <nombre_del_plugin>
+```
 
-Consulta la documentación oficial de HelloChusquis para obtener instrucciones detalladas sobre cómo integrar plugins.
+Este comando se encargará automáticamente de descargar el plugin y configurarlo en tu entorno de HelloChusquis. Asegúrate de reemplazar `<nombre_del_plugin>` con el nombre real del plugin que deseas instalar (por ejemplo, `calculator`, `wikipedia`, etc.).
 
 ## Creación de Nuevos Plugins
 
