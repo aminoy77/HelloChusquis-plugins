@@ -1,0 +1,27 @@
+{
+  "calculator": {
+    "url": "https://raw.githubusercontent.com/aminoy77/HelloChusquis-plugins/main/plugins/calculator.py",
+    "description": "Realiza operaciones aritméticas básicas como suma, resta, multiplicación y división.",
+    "author": "Arnau"
+  },
+  "wikipedia": {
+    "url": "https://raw.githubusercontent.com/aminoy77/HelloChusquis-plugins/main/plugins/wikipedia.py",
+    "description": "Busca información en Wikipedia y devuelve un resumen.",
+    "author": "Arnau"
+  },
+  "currency": {
+    "url": "https://raw.githubusercontent.com/aminoy77/HelloChusquis-plugins/main/plugins/currency.py",
+    "description": "Convierte una cantidad de una moneda a otra utilizando tasas de cambio actuales.",
+    "author": "Arnau"
+  },
+  "news": {
+    "url": "https://raw.githubusercontent.com/aminoy77/HelloChusquis-plugins/main/plugins/news.py",
+    "description": "Obtiene las últimas noticias de una categoría o palabra clave específica.",
+    "author": "Arnau"
+  },
+  "sysinfo": {
+    "url": "https://raw.githubusercontent.com/aminoy77/HelloChusquis-plugins/main/plugins/sysinfo.py",
+    "description": "Obtiene información básica del sistema operativo y hardware.",
+    "author": "Arnau"
+  }
+}

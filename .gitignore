@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+.Python
+
+# Distribution / packaging
+.eggs/
+*.egg
+*.whl
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Editors
+.vscode/
+.idea/
+
+# Tests
+.pytest_cache/
+
+# OS generated files
+.DS_Store
+thumbs.db
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# MyPy
+.mypy_cache/
+
+# Virtualenv
+virtualenv/
+
+# HelloChusquis specific
+*.zip
