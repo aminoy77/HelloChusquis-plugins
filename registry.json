@@ -423,5 +423,10 @@
     "url": "https://raw.githubusercontent.com/aminoy77/HelloChusquis-plugins/main/plugins/docx.py",
     "description": "Crea un archivo Microsoft Word .docx real con título y secciones de contenido.",
     "author": "Arnau"
+  },
+  "browser": {
+    "url": "https://raw.githubusercontent.com/aminoy77/HelloChusquis-plugins/main/plugins/browser.py",
+    "description": "Control browser: open URLs, search Google, extract text from pages",
+    "author": "Arnau"
   }
 }

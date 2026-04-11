@@ -1,6 +1,6 @@
 # HelloChusquis-Plugins 🚀
 
-¡Bienvenido al repositorio oficial de plugins para **HelloChusquis**! Esta es una colección masiva de **81 plugins** diseñados para extender las capacidades de tu agente de terminal AI, convirtiéndolo en una herramienta de productividad definitiva.
+¡Bienvenido al repositorio oficial de plugins para **HelloChusquis**! Esta es una colección masiva de **82 plugins** diseñados para extender las capacidades de tu agente de terminal AI, convirtiéndolo en una herramienta de productividad definitiva.
 
 ## 🛠️ Instalación
 
@@ -14,7 +14,7 @@ hellochusquis install <nombre_del_plugin>
 
 ---
 
-## 🧩 Plugins Disponibles (81)
+## 🧩 Plugins Disponibles (82)
 
 | Categoría | Plugin | Descripción |
 | :--- | :--- | :--- |
@@ -44,6 +44,7 @@ hellochusquis install <nombre_del_plugin>
 | | `rss` | Lee feeds RSS y noticias por temática. |
 | | `webscrape` | Extrae información específica de cualquier página web. |
 | | `sslcheck` | Verifica certificado SSL de un dominio. |
+| | `browser` | Control browser: open URLs, search Google, extract text from pages. |
 | **Productividad** | `todo` | Lista de tareas persistente. |
 | | `calendar` | Gestión de eventos y recordatorios. |
 | | `reminder` | Sistema de recordatorios con fecha/hora. |
@@ -81,7 +82,7 @@ hellochusquis install <nombre_del_plugin>
 | | `voice` | Convierte texto a voz y reproduce (simulado). |
 | | `speech` | Reconocimiento de voz a texto (simulado). |
 | **Finanzas** | `crypto` | Precios de criptomonedas en tiempo real. |
-| | `stocks` | Precios de acciones y bolsa. |
+| | `stocks` | Precios de acciones y bolsa (datos reales con yfinance). |
 | | `currency` | Conversor de divisas con tasas actuales. |
 | | `currencyhistory` | Historial de tipos de cambio. |
 | | `goldprice` | Precio del oro, plata y otros metales. |
