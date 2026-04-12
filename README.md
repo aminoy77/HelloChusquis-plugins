@@ -1,62 +1,86 @@
 # HelloChusquis-Plugins 🚀
 
-¡Bienvenido al repositorio oficial de plugins para **HelloChusquis**! Esta es una colección de **20 plugins esenciales (Tier 1)**, refactorizados y optimizados para extender las capacidades de tu agente de terminal AI, convirtiéndolo en una herramienta de productividad ágil y robusta.
+Welcome to the official plugin repository for **HelloChusquis**! This collection features **20 essential (Tier 1) plugins**, refactored and optimized to extend the capabilities of your AI terminal agent, transforming it into an agile and robust productivity tool.
 
-## 🛠️ Instalación
+## 🛠️ Installation
 
-Para instalar cualquier plugin de este repositorio, simplemente ejecuta el siguiente comando en tu terminal:
+To install any plugin from this repository, simply run the following command in your terminal:
 
 ```bash
-hellochusquis install <nombre_del_plugin>
+hellochusquis install <plugin_name>
 ```
 
-*Ejemplo: `hellochusquis install calculator`*
+*Example: `hellochusquis install calculator`*
 
 ---
 
-## 🧩 Plugins Disponibles (20)
+## ✨ New Capabilities & Highlights
 
-| Plugin | Descripción |
+HelloChusquis is constantly evolving. Here are some of the latest advancements that empower your agent:
+
+### 🌐 Advanced Web Browsing (`browser` plugin)
+The `browser` plugin provides your agent with real web interaction capabilities:
+*   **Real Navigation**: Open any URL and wait for content to load.
+*   **Brave Search Integration**: Perform searches using Brave Search, which is bot-friendly and provides structured results.
+*   **Text Extraction**: Cleanly extract relevant text from web pages, removing clutter like scripts, styles, and ads.
+*   **Screenshots**: Capture images of web content.
+
+### 🛠️ Self-Building Agent (`core/builder.py`)
+HelloChusquis can now build its own tools! The `core/builder.py` module enables the agent to:
+*   **Investigate APIs**: Automatically search the web for API documentation for new functionalities.
+*   **Generate Code**: Write new plugins following the official HelloChusquis standard.
+*   **Self-Validation**: Test generated plugins locally and self-correct errors up to 3 times.
+*   **Contribution Guidance**: Provide instructions for submitting new plugins via Pull Requests.
+
+### 📈 Real-time Financial Data (`stocks` plugin)
+The `stocks` plugin has been upgraded to provide real-time financial insights:
+*   **`yfinance` Integration**: Access current prices, historical data, and technical analysis for any stock ticker (e.g., AAPL, TSLA).
+
+---
+
+## 🧩 Available Plugins (20)
+
+| Plugin | Description |
 | :--- | :--- |
-| `calculator` | Realiza operaciones matemáticas con eval seguro. |
-| `worldclock` | Hora actual en cualquier ciudad con pytz. |
-| `currency` | Conversor de divisas con https://api.exchangerate-api.com/v4/latest/EUR. |
-| `crypto` | Precios crypto con https://api.coinbase.com/v2/prices/{symbol}-USD/spot. |
-| `ip` | Info de IP con https://ipapi.co/{ip}/json/. |
-| `joke` | Chistes con https://v2.jokeapi.dev/joke/Any?lang=es. |
-| `qr` | Genera QR codes con qrcode library. |
-| `hash` | Genera hashes MD5/SHA256 con hashlib. |
-| `base64encode` | Codifica/decodifica base64 con stdlib. |
-| `password` | Genera contraseñas seguras con secrets. |
-| `sysinfo` | Info del sistema con psutil. |
-| `speedtest` | Test de velocidad con speedtest-cli. |
-| `wikipedia` | Búsquedas Wikipedia con wikipedia library. |
-| `translate` | Traducciones con deep-translator library. |
-| `urlshortener` | Acorta URLs con https://tinyurl.com/api-create.php?url=. |
-| `webscrape` | Extrae texto de cualquier URL con httpx + beautifulsoup4. |
-| `discord` | Envía mensajes a Discord via webhook. |
-| `recipe` | Busca recetas con https://www.themealdb.com/api/json/v1/1/search.php?s=. |
-| `movie` | Info de películas con OMDb API. |
-| `news` | Últimas noticias con https://gnews.io/api/v4/search o RSS. |
+| `calculator` | Performs mathematical operations with secure `eval`. |
+| `worldclock` | Shows current time in any city using `pytz`. |
+| `currency` | Currency converter using `https://api.exchangerate-api.com`. |
+| `crypto` | Real-time cryptocurrency prices from `https://api.coinbase.com`. |
+| `ip` | IP information lookup using `https://ipapi.co`. |
+| `joke` | Fetches random jokes from `https://v2.jokeapi.dev`. |
+| `qr` | Generates QR codes using the `qrcode` library. |
+| `hash` | Generates MD5/SHA256 hashes using `hashlib`. |
+| `base64encode` | Encodes/decodes Base64 strings using Python's standard library. |
+| `password` | Generates secure passwords using Python's `secrets` module. |
+| `sysinfo` | Provides system information using `psutil`. |
+| `speedtest` | Performs internet speed tests using `speedtest-cli`. |
+| `wikipedia` | Searches Wikipedia for information using the `wikipedia` library. |
+| `translate` | Translates text using the `deep-translator` library. |
+| `urlshortener` | Shortens URLs using `https://tinyurl.com`. |
+| `webscrape` | Extracts main text content from any URL using `httpx` and `beautifulsoup4`. |
+| `discord` | Sends messages to Discord via webhook. |
+| `recipe` | Searches for recipes using `https://www.themealdb.com`. |
+| `movie` | Fetches movie information using OMDb API. |
+| `news` | Retrieves latest news using GNews API. |
 
 ---
 
-## ✍️ Creación de Plugins
+## ✍️ Creating New Plugins
 
-Si deseas contribuir con un nuevo plugin, sigue esta estructura oficial:
+If you wish to contribute a new plugin, please follow this official structure:
 
 ```python
-PLUGIN_NAME = "mi_plugin"
-PLUGIN_DESCRIPTION = "Descripción útil en español"
+PLUGIN_NAME = "my_plugin"
+PLUGIN_DESCRIPTION = "A useful description in English"
 PLUGIN_SCHEMA = {
     "type": "function",
     "function": {
-        "name": "mi_plugin",
+        "name": "my_plugin",
         "description": PLUGIN_DESCRIPTION,
         "parameters": {
             "type": "object",
             "properties": {
-                "param": {"type": "string", "description": "Descripción del parámetro"}
+                "param": {"type": "string", "description": "Parameter description"}
             },
             "required": ["param"]
         }
@@ -65,27 +89,27 @@ PLUGIN_SCHEMA = {
 
 def run(param: str) -> str:
     try:
-        # Tu lógica aquí
-        return f"Resultado: {param}"
+        # Your logic here
+        return f"Result: {param}"
     except Exception as e:
         return f"Error: {e}"
 ```
 
 ---
 
-## 🤝 Contribuir
+## 🤝 Contributing
 
-1. Haz un **Fork** del proyecto.
-2. Crea una rama para tu mejora: `git checkout -b feature/nuevo-plugin`.
-3. Haz un **Commit** de tus cambios: `git commit -m 'Añadir plugin X'`.
-4. Sube los cambios: `git push origin feature/nuevo-plugin`.
-5. Abre un **Pull Request**.
-
----
-
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia **MIT**. Consulta el archivo `LICENSE` para más detalles.
+1.  **Fork** the project.
+2.  Create a new branch for your feature: `git checkout -b feature/new-plugin`.
+3.  **Commit** your changes: `git commit -m 'Add plugin X'`.
+4.  Push to the branch: `git push origin feature/new-plugin`.
+5.  Open a **Pull Request**.
 
 ---
-*Desarrollado con ❤️ por aminoy77 y la comunidad de HelloChusquis.*
+
+## 📄 License
+
+This project is licensed under the **MIT License**. See the `LICENSE` file for more details.
+
+---
+*Developed with ❤️ by aminoy77 and the HelloChusquis community.*
